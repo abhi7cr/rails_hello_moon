@@ -10,6 +10,8 @@
   },
   "scripts": {
     "postinstall": "cd client && yarn install",
+
+    "postinstall": "cd client && yarn install",
     "test": "rspec && yarn run test:client && yarn run lint",
     "test:client": "(cd client && yarn run test --silent)",
     "lint": "(cd client && yarn run lint --silent)",

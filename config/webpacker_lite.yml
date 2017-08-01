@@ -1,4 +1,3 @@
-
 # Note: Base output directory of /public is assumed for static files
 default: &default
   manifest: manifest.json
