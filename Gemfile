@@ -6,6 +6,13 @@ git_source(:github) do |repo_name|
 end
 
 
+gem "react_on_rails", "8.0.6.rc.1"
+
+gem "webpacker_lite", "2.1.0"
+
+
+gem "redis"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 # Use sqlite3 as the database for Active Record
